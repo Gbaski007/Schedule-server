@@ -279,7 +279,7 @@ appointmentRouter.get(
   "/appointments/scheduled",
   protectDoctor,
   asyncHandler(async (req, res) => {
-    const doctorId  = req.doctor._id;
+    const doctorId = req.doctor._id;
 
     // Fetch appointments with status 'scheduled' for the specified doctor
     const appointments = await Appointments.find({
