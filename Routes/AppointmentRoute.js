@@ -153,7 +153,7 @@ const sendEmail = async (product, subject, text) => {
 
     const mailOptions = {
       from: "davidodimayo7@gmail.com",
-      to: "idowuodimayo@gmail.com",
+      to: "Dr.ikharoabdulsamad@outlook.com",
       subject: subject,
       text: text,
     };
